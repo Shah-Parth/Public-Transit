@@ -7,12 +7,19 @@ Input
 -----
 
 The input format will be as follows:
+
 [Start-Stop_id] [End-Stop_id] [Departure time Hour] [Departure time Min] 
+
 where:
+
 [Start-Stop_id] is the stop id for the start of the trip
+
 [End-Stop_id] is the stop id for the end of the trip
+
 [Departure time Hour] is an integer with the 24-hour departure time hour (i.e. 17 for a 5:30pm departure)
+
 [Departure time Min] is an integer with the departure time minute (i.e. 30 for a 5:30pm departure)
+
 You should assume that the departure time second is 00.
 
 Output
