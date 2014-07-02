@@ -30,11 +30,11 @@ Example Output
 
 Your output should be in the following format
 
--Travelling from FEDERAL CENTER METRO STATION to TAKOMA METRO STATION at 7:00:00
--Board Orange at FEDERAL CENTER METRO STATION at 7:02:00
--Transfer to Green at L'ENFANT PLAZA METRO STATION at 7:06:00
--Transfer to Red at FORT TOTTEN METRO STATION at 7:22:00
--Arrive at TAKOMA METRO STATION at 7:25:00
+- Travelling from FEDERAL CENTER METRO STATION to TAKOMA METRO STATION at 7:00:00
+- Board Orange at FEDERAL CENTER METRO STATION at 7:02:00
+- Transfer to Green at L'ENFANT PLAZA METRO STATION at 7:06:00
+- Transfer to Red at FORT TOTTEN METRO STATION at 7:22:00
+- Arrive at TAKOMA METRO STATION at 7:25:00
 
 We are making the following assumptions as we create our route guidance system:
 Users care only about earliest arrival time (not about cost of trip, comfort on the trip, transportation mode, number of transfers, etc.)
