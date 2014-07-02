@@ -4,6 +4,7 @@ Create a trip planner using public transit in Washington, DC.  You have four inp
 Your program should take as input two stop ids, and a departure time, and output an optimal route for the passenger.
 
 Input
+-----
 
 The input format will be as follows:
 [Start-Stop_id] [End-Stop_id] [Departure time Hour] [Departure time Min] 
@@ -15,14 +16,17 @@ where:
 You should assume that the departure time second is 00.
 
 Output
+------
 
 Your output should describe the fastest way to get from the starting stop to the ending stop for the provided start time.  The output include the desired departure time, the boarding time for each leg of the trip, the short name of each route, a description of each transfer, and the arrival time at the destination.  The exact format for the output is shown in the sample below.
 
 Example Input
+-------------
 
 7333 6963 7 0
 
 Example Output
+--------------
 
 Your output should be in the following format
 
@@ -41,5 +45,6 @@ Some normal transfers will currently not be allowed because some nearby stops ar
 
 
 Notes:
+------
 
 You are allowed to preprocess the input files in the following ways:  changing the format to a different delimited format and removing columns.  You are not allowed to reorder the input.  You are not allowed to use a database to store or query data.  You are not allowed to do any other preprocessing of the data.  Any processing of the data must be done after the input is read.  For example, you are not allowed to precalculate routes, transfer points, etc.
