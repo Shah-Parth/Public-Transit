@@ -46,5 +46,4 @@ Some normal transfers will currently not be allowed because some nearby stops ar
 
 Notes:
 ------
-
 You are allowed to preprocess the input files in the following ways:  changing the format to a different delimited format and removing columns.  You are not allowed to reorder the input.  You are not allowed to use a database to store or query data.  You are not allowed to do any other preprocessing of the data.  Any processing of the data must be done after the input is read.  For example, you are not allowed to precalculate routes, transfer points, etc.
