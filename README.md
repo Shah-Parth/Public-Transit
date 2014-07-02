@@ -44,12 +44,11 @@ Your output should be in the following format
 - Arrive at TAKOMA METRO STATION at 7:25:00
 
 We are making the following assumptions as we create our route guidance system:
+
 Users care only about earliest arrival time (not about cost of trip, comfort on the trip, transportation mode, number of transfers, etc.)
 Our routes always run on time.
 It takes no time to make a transfer.  In other words, if a person arrives at a station at 5:17:15pm and there is a bus leaving at 5:17:15pm, they can always make this transfer.
 Some normal transfers will currently not be allowed because some nearby stops are not connected, e.g. the bus bays and their associated metro stations are treated as distinct stops in the input data.
-
-
 
 Notes:
 ------
