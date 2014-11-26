@@ -1,41 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <title>Public-transit by Shah-Parth</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
-    <header>
-      <div class="container">
+    <div class="wrapper">
+      <header>
         <h1>Public-transit</h1>
-        <h2></h2>
+        <p></p>
 
-        <section id="downloads">
-          <a href="https://github.com/Shah-Parth/Public-Transit/zipball/master" class="btn">Download as .zip</a>
-          <a href="https://github.com/Shah-Parth/Public-Transit/tarball/master" class="btn">Download as .tar.gz</a>
-          <a href="https://github.com/Shah-Parth/Public-Transit" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
+        <p class="view"><a href="https://github.com/Shah-Parth/Public-Transit">View the Project on GitHub <small>Shah-Parth/Public-Transit</small></a></p>
 
-    <div class="container">
-      <section id="main_content">
+
+        <ul>
+          <li><a href="https://github.com/Shah-Parth/Public-Transit/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/Shah-Parth/Public-Transit/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/Shah-Parth/Public-Transit">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
         <h1>
-<a name="public-transit" class="anchor" href="#public-transit"><span class="octicon octicon-link"></span></a>Public-Transit</h1>
+<a id="public-transit" class="anchor" href="#public-transit" aria-hidden="true"><span class="octicon octicon-link"></span></a>Public-Transit</h1>
 
 <p>Create a trip planner using public transit in Washington, DC.  You have four input files that are provided, which you will use to create the graph of transit system.<br>
 Your program should take as input two stop ids, and a departure time, and output an optimal route for the passenger.</p>
 
 <h2>
-<a name="input" class="anchor" href="#input"><span class="octicon octicon-link"></span></a>Input</h2>
+<a id="input" class="anchor" href="#input" aria-hidden="true"><span class="octicon octicon-link"></span></a>Input</h2>
 
 <p>The input format will be as follows:</p>
 
@@ -54,17 +54,17 @@ Your program should take as input two stop ids, and a departure time, and output
 <p>You should assume that the departure time second is 00.</p>
 
 <h2>
-<a name="output" class="anchor" href="#output"><span class="octicon octicon-link"></span></a>Output</h2>
+<a id="output" class="anchor" href="#output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Output</h2>
 
 <p>Your output should describe the fastest way to get from the starting stop to the ending stop for the provided start time.  The output include the desired departure time, the boarding time for each leg of the trip, the short name of each route, a description of each transfer, and the arrival time at the destination.  The exact format for the output is shown in the sample below.</p>
 
 <h2>
-<a name="example-input" class="anchor" href="#example-input"><span class="octicon octicon-link"></span></a>Example Input</h2>
+<a id="example-input" class="anchor" href="#example-input" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Input</h2>
 
 <p>7333 6963 7 0</p>
 
 <h2>
-<a name="example-output" class="anchor" href="#example-output"><span class="octicon octicon-link"></span></a>Example Output</h2>
+<a id="example-output" class="anchor" href="#example-output" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example Output</h2>
 
 <p>Your output should be in the following format</p>
 
@@ -74,7 +74,9 @@ Your program should take as input two stop ids, and a departure time, and output
 <li>Transfer to Green at L'ENFANT PLAZA METRO STATION at 7:06:00</li>
 <li>Transfer to Red at FORT TOTTEN METRO STATION at 7:22:00</li>
 <li>Arrive at TAKOMA METRO STATION at 7:25:00</li>
-</ul><p>We are making the following assumptions as we create our route guidance system:</p>
+</ul>
+
+<p>We are making the following assumptions as we create our route guidance system:</p>
 
 <p>Users care only about earliest arrival time (not about cost of trip, comfort on the trip, transportation mode, number of transfers, etc.)
 Our routes always run on time.
@@ -82,12 +84,26 @@ It takes no time to make a transfer.  In other words, if a person arrives at a s
 Some normal transfers will currently not be allowed because some nearby stops are not connected, e.g. the bus bays and their associated metro stations are treated as distinct stops in the input data.</p>
 
 <h2>
-<a name="notes" class="anchor" href="#notes"><span class="octicon octicon-link"></span></a>Notes:</h2>
+<a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes:</h2>
 
 <p>You are allowed to preprocess the input files in the following ways:  changing the format to a different delimited format and removing columns.  You are not allowed to reorder the input.  You are not allowed to use a database to store or query data.  You are not allowed to do any other preprocessing of the data.  Any processing of the data must be done after the input is read.  For example, you are not allowed to precalculate routes, transfer points, etc.</p>
       </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/Shah-Parth">Shah-Parth</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-51904759-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
 
-    
   </body>
 </html>
